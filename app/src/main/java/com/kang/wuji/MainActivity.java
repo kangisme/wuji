@@ -1,9 +1,10 @@
 package com.kang.wuji;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.kang.wuji.commom.BaseAcitivity;
+
+public class MainActivity extends BaseAcitivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
