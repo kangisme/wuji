@@ -1,9 +1,10 @@
-package com.kang.wuji;
+package com.kang.wuji.view.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.kang.wuji.R;
 import com.kang.wuji.commom.BaseAcitivity;
 
 

@@ -34,7 +34,12 @@ dependencies {
     //引用skin模块
     implementation project(':skin')
 
+    //logger
     implementation rootProject.ext.logger
+    //butterknife
+    implementation rootProject.ext.butterknife
+    annotationProcessor rootProject.ext.butterannota
+
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     testImplementation 'junit:junit:4.12'
