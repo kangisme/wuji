@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.activity.FirstActivity"
-            android:theme="@style/AppMainTheme.NoAnim">
+            android:theme="@style/AppTheme.NoAnim">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.activity.MainActivity"
-            android:theme="@style/AppMainTheme">
+            android:theme="@style/AppTheme">
 
         </activity>
     </application>

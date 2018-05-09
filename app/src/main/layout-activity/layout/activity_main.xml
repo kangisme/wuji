@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="?main_background"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?main_background"
+    android:orientation="vertical"
     tools:context=".view.activity.MainActivity">
 
     <FrameLayout
@@ -15,13 +14,93 @@
         android:layout_height="0dp"
         android:layout_weight="1">
     </FrameLayout>
-    
+
     <LinearLayout
         android:id="@+id/ll_tab"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:orientation="horizontal">
 
+        <LinearLayout
+            android:id="@+id/ll_diary"
+            style="@style/main_tab_layout">
+
+            <ImageView
+                android:id="@+id/iv_diary"
+                android:layout_width="22.0dip"
+                android:layout_height="22.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_4"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_diary_normal"/>
+
+            <TextView
+                android:id="@+id/tv_diary"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:paddingLeft="-5.0dip"
+                android:text="日记"
+                android:textColor="@color/main_text_color"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_passer"
+            style="@style/main_tab_layout">
+
+            <ImageView
+                android:id="@+id/iv_passer"
+                android:layout_width="22.0dip"
+                android:layout_height="22.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_4"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_passer_normal"/>
+
+            <TextView
+                android:id="@+id/tv_passer"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="过客"
+                android:textColor="@color/main_text_color"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_mine"
+            style="@style/main_tab_layout">
+
+            <ImageView
+                android:id="@+id/iv_mine"
+                android:layout_width="22.0dip"
+                android:layout_height="22.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/lay_4"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_mine_normal"/>
+
+            <TextView
+                android:id="@+id/tv_notify"
+                android:layout_width="14.0dip"
+                android:layout_height="14.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/lay_4"
+                android:layout_toRightOf="@id/iv_mine"
+                android:background="@drawable/bg_message_count"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_10"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_mine"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/iv_mine"
+                android:gravity="center"
+                android:text="我的"
+                android:textColor="@color/main_text_color"/>
+        </RelativeLayout>
     </LinearLayout>
 
 
