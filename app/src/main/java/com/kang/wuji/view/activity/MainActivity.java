@@ -7,25 +7,25 @@ import com.kang.wuji.commom.BaseAcitivity;
 
 public class MainActivity extends BaseAcitivity {
 
-    /**
-     * 日记tab
-     */
-    private static final String DIARY = "diary";
-
-    /**
-     * 日历tab
-     */
-    private static final String CALENDAR = "calendar";
-
-    /**
-     * 我的tab
-     */
-    private static final String USER = "user";
-
-    /**
-     * 可选新闻tab
-     */
-    private static final String NEWS = "news";
+//    /**
+//     * 日记tab
+//     */
+//    private static final String DIARY = "diary";
+//
+//    /**
+//     * 日历tab
+//     */
+//    private static final String CALENDAR = "calendar";
+//
+//    /**
+//     * 我的tab
+//     */
+//    private static final String USER = "user";
+//
+//    /**
+//     * 可选新闻tab
+//     */
+//    private static final String NEWS = "news";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
