@@ -21,7 +21,7 @@ android {
             res.srcDirs =
                     [
                             'src/main/layout-activity',
-                            'src/maim/layout-fragment',
+                            'src/maim/layout-template',
                             'src/main/layout-view',
                             'src/main/res'
                     ]
@@ -39,8 +39,16 @@ dependencies {
     //butterknife
     implementation rootProject.ext.butterknife
     annotationProcessor rootProject.ext.butterannota
+    //下拉刷新上拉加载RecyclerView
+    implementation rootProject.ext.smartLayout
+    implementation rootProject.ext.smartLayoutHeader
+    //dagger2
+    implementation rootProject.ext.dagger2
+    annotationProcessor rootProject.ext.dagger2annota
+    //retrofit2
+    implementation rootProject.ext.retrofit2
 
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation rootProject.ext.support_v7
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'

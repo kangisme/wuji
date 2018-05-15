@@ -43,4 +43,15 @@ ext{
     //butterknife
     butterknife = 'com.jakewharton:butterknife:8.8.1'
     butterannota = 'com.jakewharton:butterknife-compiler:8.8.1'
+    //smartRecyclerView
+    smartLayout = 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
+    //没有使用特殊Header，可以不加这行
+    smartLayoutHeader = 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'
+    //dagger2
+    dagger2 = 'com.google.dagger:dagger:2.4'
+    dagger2annota = 'com.google.dagger:dagger-compiler:2.4'
+    lottie = 'com.airbnb.android:lottie:2.5.4'
+    retrofit2 = 'com.squareup.retrofit2:retrofit:2.4.0'
+
+    support_v7 = 'com.android.support:appcompat-v7:27.1.1'
 }

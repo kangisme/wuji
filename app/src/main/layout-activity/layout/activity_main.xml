@@ -68,7 +68,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"
-                android:text="过客"
+                android:text="头条"
                 android:textColor="@color/main_text_color"/>
         </LinearLayout>
 

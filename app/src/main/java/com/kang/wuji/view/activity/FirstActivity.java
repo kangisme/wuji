@@ -31,7 +31,7 @@ public class FirstActivity extends BaseAcitivity
                 startActivity(new Intent(FirstActivity.this, MainActivity.class));
                 finish();
             }
-        }, 1000);
+        }, 100);
     }
 
     @Override

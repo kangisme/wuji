@@ -36,4 +36,6 @@
     <dimen name="lay_4">4.0dip</dimen>
     <dimen name="lay_6">6.0dip</dimen>
     <dimen name="lay_8">8.0dip</dimen>
+
+    <dimen name="titile_bar_height">44dp</dimen>
 </resources>
