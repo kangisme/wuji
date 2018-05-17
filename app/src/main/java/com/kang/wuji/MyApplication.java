@@ -8,7 +8,6 @@ import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
 
-import com.kang.wuji.commom.ThreadPool;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.FormatStrategy;
 import com.orhanobut.logger.Logger;

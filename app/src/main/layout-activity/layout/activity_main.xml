@@ -73,17 +73,17 @@
         </LinearLayout>
 
         <RelativeLayout
-            android:id="@+id/rl_mine"
+            android:id="@+id/rl_user"
             style="@style/main_tab_layout">
 
             <ImageView
-                android:id="@+id/iv_mine"
+                android:id="@+id/iv_user"
                 android:layout_width="22.0dip"
                 android:layout_height="22.0dip"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/lay_4"
                 android:contentDescription="@string/app_name"
-                android:src="@drawable/icon_mine_normal"/>
+                android:src="@drawable/icon_user_normal"/>
 
             <TextView
                 android:id="@+id/tv_notify"
@@ -91,7 +91,7 @@
                 android:layout_height="14.0dip"
                 android:layout_gravity="center_vertical"
                 android:layout_marginTop="@dimen/lay_4"
-                android:layout_toRightOf="@id/iv_mine"
+                android:layout_toRightOf="@id/iv_user"
                 android:background="@drawable/bg_message_count"
                 android:gravity="center"
                 android:textColor="@color/white"
@@ -99,10 +99,10 @@
                 android:visibility="gone"/>
 
             <TextView
-                android:id="@+id/tv_mine"
+                android:id="@+id/tv_user"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_below="@id/iv_mine"
+                android:layout_below="@id/iv_user"
                 android:gravity="center"
                 android:text="我的"
                 android:textColor="@color/main_text_color"/>

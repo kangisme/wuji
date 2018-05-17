@@ -1,4 +1,4 @@
-package com.kang.wuji.commom;
+package com.kang.wuji.view.widget;
 
 import android.app.Activity;
 import android.content.Context;

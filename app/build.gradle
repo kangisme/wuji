@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "com.kang.wuji"
-        minSdkVersion 21
-        targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -21,7 +21,7 @@ android {
             res.srcDirs =
                     [
                             'src/main/layout-activity',
-                            'src/maim/layout-template',
+                            'src/maim/layout-fragment',
                             'src/main/layout-view',
                             'src/main/res'
                     ]
@@ -47,6 +47,7 @@ dependencies {
     annotationProcessor rootProject.ext.dagger2annota
     //retrofit2
     implementation rootProject.ext.retrofit2
+    implementation rootProject.ext.spinkit
 
     implementation rootProject.ext.support_v7
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'

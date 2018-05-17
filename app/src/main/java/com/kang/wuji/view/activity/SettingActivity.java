@@ -3,7 +3,7 @@ package com.kang.wuji.view.activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import com.kang.wuji.commom.BaseAcitivity;
+import com.kang.wuji.base.BaseAcitivity;
 
 /**
  * @author created by kangren on 2018/5/15 16:54

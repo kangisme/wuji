@@ -1,4 +1,4 @@
-package com.kang.wuji.commom;
+package com.kang.wuji;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

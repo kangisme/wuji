@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.kang.wuji.R;
-import com.kang.wuji.commom.BaseAcitivity;
+import com.kang.wuji.base.BaseAcitivity;
 
 
 public class FirstActivity extends BaseAcitivity

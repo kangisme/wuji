@@ -4,9 +4,9 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.kang.wuji.commom.TitleBar
+    <com.kang.wuji.view.widget.TitleBar
         android:text="@string/setting"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/titile_bar_height">
-    </com.kang.wuji.commom.TitleBar>
+    </com.kang.wuji.view.widget.TitleBar>
 </LinearLayout>

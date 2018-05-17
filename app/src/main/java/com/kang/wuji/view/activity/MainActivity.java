@@ -5,7 +5,7 @@ import android.os.SystemClock;
 import android.widget.Toast;
 
 import com.kang.wuji.R;
-import com.kang.wuji.commom.BaseAcitivity;
+import com.kang.wuji.base.BaseAcitivity;
 
 public class MainActivity extends BaseAcitivity {
 

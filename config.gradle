@@ -1,0 +1,37 @@
+ext {
+    //android
+    compileSdkVersion = 27
+    minSdkVersion = 21
+    targetSdkVersion = 27
+    versionCode = 1
+    versionName = "1.0"
+
+    //http请求
+    okhttp = 'com.squareup.okhttp3:okhttp:3.9.1'
+    //okhttp支持包
+    okio = 'com.squareup.okio:okio:1.13.0'
+    //log日志工具
+    logger = 'com.orhanobut:logger:2.1.1'
+    //图片加载框架
+    picasso = 'com.squareup.picasso:picasso:2.5.2'
+    //事件总线
+    eventbus = 'org.greenrobot:eventbus:3.0.0'
+    //动画库lottie
+    lottie = 'com.airbnb.android:lottie:2.5.4'
+    //butterknife
+    butterknife = 'com.jakewharton:butterknife:8.8.1'
+    butterannota = 'com.jakewharton:butterknife-compiler:8.8.1'
+    //smartRecyclerView
+    smartLayout = 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
+    //没有使用特殊Header，可以不加这行
+    smartLayoutHeader = 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'
+    //dagger2
+    dagger2 = 'com.google.dagger:dagger:2.4'
+    dagger2annota = 'com.google.dagger:dagger-compiler:2.4'
+    lottie = 'com.airbnb.android:lottie:2.5.4'
+    retrofit2 = 'com.squareup.retrofit2:retrofit:2.4.0'
+    //android loading animation
+    spinkit = 'com.github.ybq:Android-SpinKit:1.1.0'
+
+    support_v7 = 'com.android.support:appcompat-v7:27.1.1'
+}
