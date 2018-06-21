@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_default_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <ImageView
+        android:id="@+id/cl_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/app_name"
+        />
+
+    <TextView
+        android:id="@+id/cl_nick_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_20"
+        android:textStyle="bold"
+        style="@style/text_shadow"
+        tools:text="Yuki"/>
+
+    <LinearLayout
+        android:id="@+id/ll_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/lay_10"
+            android:drawableRight="@drawable/icon_star"
+            android:gravity="center"
+            android:text="@string/user_star"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_18"/>
+
+        <TextView
+            android:id="@+id/tv_level"
+            style="@style/text_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/lay_16"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_18"
+            tools:text="3"/>
+
+        <TextView
+            style="@style/text_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/lay_34"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_18"
+            tools:text="@string/about"/>
+    </LinearLayout>
+</LinearLayout>

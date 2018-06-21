@@ -1,0 +1,38 @@
+{
+  "template": [
+    {
+      "id": 1,
+      "item": "用户头像"
+    },
+    {
+      "id": 2,
+      "item": "修改资料",
+      "icon": "com.wujiteam.wuji:drawable/icon_user_update_data",
+      "activityName": "com.wujiteam.wuji.ui.activity.user.ModifyUserInfoActivity"
+    },
+    {
+      "id": 2,
+      "item": "垃圾箱",
+      "icon": "com.wujiteam.wuji:drawable/icon_user_rubbish",
+      "activityName": "com.wujiteam.wuji.ui.activity.user.DiaryRubbishActivity"
+    },
+    {
+      "id": 2,
+      "item": "隐私",
+      "icon": "com.wujiteam.wuji:drawable/icon_user_private",
+      "activityName": "com.wujiteam.wuji.ui.activity.user.PrivacyActivity"
+    },
+    {
+      "id": 2,
+      "item": "系统通知",
+      "icon": "com.wujiteam.wuji:drawable/icon_user_message",
+      "activityName": "com.wujiteam.wuji.ui.activity.user.UserHomeActivity"
+    },
+    {
+      "id": 2,
+      "item": "设置",
+      "icon": "com.wujiteam.wuji:drawable/icon_user_light_setting",
+      "activityName": "com.wujiteam.wuji.ui.activity.system.SettingActivity"
+    }
+  ]
+}

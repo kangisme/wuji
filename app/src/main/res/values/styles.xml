@@ -1,101 +1,5 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:screenOrientation">portrait</item>
-        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="main_background">@color/light_background</item>
-    </style>
-
-    <style name="AppTheme.NoAnim" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowIsTranslucent">false</item>
-        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-
-    <style name="ActivityAnimation" parent="@android:style/Animation.Activity">
-        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
-        <item name="android:activityCloseExitAnimation">@anim/right_out</item>
-    </style>
-
-    <style name="AppTheme.Light" parent="@style/Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:screenOrientation">portrait</item>
-        <item name="android:windowIsTranslucent">false</item>
-        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="colorPrimary">@color/app_color</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="main_background">@color/light_background</item>
-        <!--<item name="bg_material">@drawable/bg_material</item>-->
-        <!--<item name="bg_ripple">@drawable/bg_ripple_light</item>-->
-        <!--<item name="btn_main_selector">@drawable/selector_ripple</item>-->
-        <!--<item name="btn_secondary_selector">@color/material</item>-->
-        <!--<item name="diary_background">@color/light_dairy_background</item>-->
-        <!--<item name="item_selector">@drawable/light_selector_ripple</item>-->
-        <!--<item name="layout_color">@color/light_layout_color</item>-->
-        <!--<item name="line_color">@color/light_line_color</item>-->
-        <!--<item name="login_selector">@drawable/light_selector_login</item>-->
-        <!--<item name="lunar_text_color">@color/light_lunar_text_color</item>-->
-        <!--<item name="radius_background">@drawable/selector_radius_light</item>-->
-        <!--<item name="secondary_background">@color/app_background</item>-->
-        <!--<item name="space_background">@color/light_space_color</item>-->
-        <!--<item name="text_enable_color">@color/text_black</item>-->
-        <!--<item name="text_hint_color">@color/light_text_hint_color</item>-->
-        <!--<item name="text_main_color">@color/light_text_main_color</item>-->
-        <!--<item name="text_secondary_color">@color/light_text_secondary_color</item>-->
-        <!--<item name="text_selected_color">@color/app_color</item>-->
-        <!--<item name="text_summary_color">@color/light_text_summary_color</item>-->
-        <!--<item name="text_unable_color">@color/text_light_gray</item>-->
-        <!--<item name="current_month_text_color">@color/light_current_month_text_color</item>-->
-        <!--<item name="other_month_text_color">@color/light_other_month_text_color</item>-->
-    </style>
-    <style name="AppTheme.Night" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:screenOrientation">portrait</item>
-        <item name="android:windowIsTranslucent">false</item>
-        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="colorPrimary">@color/night_colorPrimary</item>
-        <item name="colorPrimaryDark">@color/night_colorPrimary</item>
-        <item name="colorAccent">@color/night_colorPrimary</item>
-        <item name="main_background">@color/night_background</item>
-        <!--<item name="bg_material">@drawable/bg_material</item>-->
-        <!--<item name="bg_ripple">@drawable/bg_ripple_night</item>-->
-        <!--<item name="btn_main_selector">@drawable/selector_ripple</item>-->
-        <!--<item name="btn_secondary_selector">@color/material</item>-->
-        <!--<item name="diary_background">@color/night_dairy_background</item>-->
-        <!--<item name="item_selector">@drawable/night_selector_ripple</item>-->
-        <!--<item name="layout_color">@color/night_layout_color</item>-->
-        <!--<item name="line_color">@color/night_line_color</item>-->
-        <!--<item name="login_selector">@drawable/night_selector_login</item>-->
-        <!--<item name="lunar_text_color">@color/night_lunar_text_color</item>-->
-        <!--<item name="radius_background">@drawable/selector_radius_night</item>-->
-        <!--<item name="secondary_background">@color/night_secondary_background</item>-->
-        <!--<item name="space_background">@color/night_space_color</item>-->
-        <!--<item name="text_enable_color">@color/white</item>-->
-        <!--<item name="text_hint_color">@color/night_text_hint_color</item>-->
-        <!--<item name="text_main_color">@color/night_text_main_color</item>-->
-        <!--<item name="text_secondary_color">@color/night_text_secondary_color</item>-->
-        <!--<item name="text_selected_color">@color/white</item>-->
-        <!--<item name="text_summary_color">@color/night_text_summary_color</item>-->
-        <!--<item name="text_unable_color">@color/text_light_gray</item>-->
-        <!--<item name="current_month_text_color">@color/night_current_month_text_color</item>-->
-        <!--<item name="other_month_text_color">@color/night_other_month_text_color</item>-->
-    </style>
-
     <style name="main_tab_layout">
         <item name="android:orientation">vertical</item>
         <item name="android:background">@drawable/bg_material</item>
@@ -103,5 +7,20 @@
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <!--下为各种View的Style-->
+    <style name="h_line">
+        <item name="android:background">?line_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+
+    <!--阴影文字-->
+    <style name="text_shadow">
+        <item name="android:shadowColor">@color/text_gray</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">1.0</item>
     </style>
 </resources>

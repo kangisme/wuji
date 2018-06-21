@@ -1,17 +1,19 @@
 package com.kang.wuji.view.activity;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-
-import com.kang.wuji.base.BaseAcitivity;
+import com.kang.wuji.base.BaseActivity;
 
 /**
  * @author created by kangren on 2018/5/15 16:54
  */
-public class SettingActivity extends BaseAcitivity {
+public class SettingActivity extends BaseActivity {
+
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected int attachLayoutRes() {
+        return 0;
+    }
+
+    @Override
+    protected void initViews() {
 
     }
 }

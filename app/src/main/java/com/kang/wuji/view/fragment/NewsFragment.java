@@ -1,5 +1,6 @@
 package com.kang.wuji.view.fragment;
 
+import com.kang.wuji.R;
 import com.kang.wuji.base.BaseFragment;
 
 /**
@@ -8,7 +9,12 @@ import com.kang.wuji.base.BaseFragment;
 public class NewsFragment extends BaseFragment {
     @Override
     protected int attachLayoutRes() {
-        return 0;
+        return R.layout.fragment_new;
+    }
+
+    @Override
+    protected void initInjector() {
+
     }
 
     @Override

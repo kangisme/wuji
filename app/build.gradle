@@ -31,6 +31,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //引用common模块
+    implementation project(':common')
     //引用skin模块
     implementation project(':skin')
 
@@ -40,8 +42,10 @@ dependencies {
     implementation rootProject.ext.butterknife
     annotationProcessor rootProject.ext.butterannota
     //下拉刷新上拉加载RecyclerView
-    implementation rootProject.ext.smartLayout
-    implementation rootProject.ext.smartLayoutHeader
+//    implementation rootProject.ext.smartLayout
+//    implementation rootProject.ext.smartLayoutHeader
+    //adapter
+    implementation rootProject.ext.brvah
     //dagger2
     implementation rootProject.ext.dagger2
     annotationProcessor rootProject.ext.dagger2annota
@@ -50,7 +54,8 @@ dependencies {
     implementation rootProject.ext.spinkit
 
     implementation rootProject.ext.support_v7
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation rootProject.ext.support_v7_design
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'

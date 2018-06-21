@@ -12,6 +12,11 @@ public class NewsListFragment extends BaseFragment {
     }
 
     @Override
+    protected void initInjector() {
+
+    }
+
+    @Override
     protected void initViews() {
 
     }

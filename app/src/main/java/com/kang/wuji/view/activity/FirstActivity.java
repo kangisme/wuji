@@ -1,21 +1,21 @@
 package com.kang.wuji.view.activity;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.os.Handler;
 
 import com.kang.wuji.R;
-import com.kang.wuji.base.BaseAcitivity;
+import com.kang.wuji.base.BaseActivity;
 
 
-public class FirstActivity extends BaseAcitivity
+public class FirstActivity extends BaseActivity
 {
+    @Override
+    protected int attachLayoutRes() {
+        return R.layout.activity_first;
+    }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
+    protected void initViews() {
 //        if (PreferencesUtil.isFirstEnter(this))
 //        {
 //            // 第一次进入配置

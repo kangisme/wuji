@@ -6,15 +6,19 @@ import android.widget.LinearLayout;
 /**
  * @author created by kangren on 2018/5/15 17:27
  */
-public class BaseView extends LinearLayout {
+public abstract class BaseView extends LinearLayout {
 
-    protected String id;
+    protected int id;
 
-    protected Context context;
+    protected Context mContext;
 
-    public BaseView(Context context) {
+    public BaseView(Context context, int templateId) {
         super(context);
+        this.id = templateId;
+        this.mContext = context;
     }
 
+    protected abstract void addView();
 
+    protected abstract void setData();
 }

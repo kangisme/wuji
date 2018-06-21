@@ -15,12 +15,6 @@
         android:layout_weight="1">
     </FrameLayout>
 
-    <android.support.v7.widget.FitWindowsLinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </android.support.v7.widget.FitWindowsLinearLayout>
-
     <LinearLayout
         android:id="@+id/ll_tab"
         android:layout_width="match_parent"
@@ -51,20 +45,20 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_passer"
+            android:id="@+id/ll_news"
             style="@style/main_tab_layout">
 
             <ImageView
-                android:id="@+id/iv_passer"
+                android:id="@+id/iv_news"
                 android:layout_width="22.0dip"
                 android:layout_height="22.0dip"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/lay_4"
                 android:contentDescription="@string/app_name"
-                android:src="@drawable/icon_passer_normal"/>
+                android:src="@drawable/icon_news_normal"/>
 
             <TextView
-                android:id="@+id/tv_passer"
+                android:id="@+id/tv_news"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:gravity="center"

@@ -22,9 +22,9 @@ ext {
     butterknife = 'com.jakewharton:butterknife:8.8.1'
     butterannota = 'com.jakewharton:butterknife-compiler:8.8.1'
     //smartRecyclerView
-    smartLayout = 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
+//    smartLayout = 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
     //没有使用特殊Header，可以不加这行
-    smartLayoutHeader = 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'
+//    smartLayoutHeader = 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'
     //dagger2
     dagger2 = 'com.google.dagger:dagger:2.4'
     dagger2annota = 'com.google.dagger:dagger-compiler:2.4'
@@ -32,6 +32,9 @@ ext {
     retrofit2 = 'com.squareup.retrofit2:retrofit:2.4.0'
     //android loading animation
     spinkit = 'com.github.ybq:Android-SpinKit:1.1.0'
+    //BRVAH
+    brvah = 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
 
     support_v7 = 'com.android.support:appcompat-v7:27.1.1'
+    support_v7_design = 'com.android.support:design:27.1.1'
 }
